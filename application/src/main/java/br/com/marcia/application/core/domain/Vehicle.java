@@ -16,7 +16,7 @@ abstract class Vehicle {
 
     private String manufacturer;
 
-    private Long year;
+    private Integer year;
 
     private String color;
 
@@ -24,5 +24,5 @@ abstract class Vehicle {
 
     private String placa;
 
-    private Boolean deleted;
+    private boolean deleted;
 }

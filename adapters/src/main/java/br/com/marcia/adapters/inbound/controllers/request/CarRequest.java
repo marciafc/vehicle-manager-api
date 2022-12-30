@@ -24,7 +24,7 @@ public class CarRequest {
     private String manufacturer;
 
     @NotNull
-    private Long year;
+    private Integer year;
 
     @NotEmpty
     private String color;

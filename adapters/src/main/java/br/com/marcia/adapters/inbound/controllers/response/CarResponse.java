@@ -20,7 +20,7 @@ public class CarResponse {
 
     private String manufacturer;
 
-    private Long year;
+    private Integer year;
 
     private String color;
 

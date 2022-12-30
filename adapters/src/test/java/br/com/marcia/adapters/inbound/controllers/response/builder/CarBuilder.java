@@ -20,7 +20,7 @@ public class CarBuilder {
     private String manufacturer = "Automobili Lamborghini S.P.A.";
 
     @Builder.Default
-    private Long year = 2021L;
+    private Integer year = 2021;
 
     @Builder.Default
     private String placa = "OPA0148";
@@ -32,7 +32,7 @@ public class CarBuilder {
     private VehicleStatusEnum status = VehicleStatusEnum.ACTIVATED;
 
     @Builder.Default
-    private Boolean deleted = Boolean.FALSE;
+    private boolean deleted = false;
 
     public Car toCar() {
         return Car.builder()

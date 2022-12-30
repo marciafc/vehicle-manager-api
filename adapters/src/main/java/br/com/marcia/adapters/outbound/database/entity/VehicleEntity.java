@@ -29,7 +29,7 @@ public class VehicleEntity {
     private String manufacturer;
 
     @Column(name = "year_manufacture", nullable = false)
-    private Long year;
+    private Integer year;
 
     @Column(nullable = false, length = 100)
     private String color;
@@ -42,5 +42,5 @@ public class VehicleEntity {
     private String placa;
 
     @Column(nullable = false)
-    private Boolean deleted;
+    private boolean deleted;
 }
